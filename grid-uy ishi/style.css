@@ -1,0 +1,53 @@
+ul{
+    list-style: none;
+}
+
+li{
+    padding-bottom: 20px;
+}
+
+.footer{
+    background-color: black;
+}
+
+.ota{
+    color: white;
+    display: flex;
+    grid-template-columns: repeat(5,1fr);
+    gap: 90px;;
+}
+
+h1{
+    color: green;
+    font-size: 20px;
+}
+
+.rasm{
+    width: 40px;
+}
+
+hr{
+    color: white;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1286px){
+
+    .imgs{
+        display: none;
+    }
+
+    .ota{
+        display: flex;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+}
+
+@media only screen and (max-width: 909px){
+
+    .ota{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
